@@ -8,7 +8,7 @@ public class MultiplicationTable {
 
         for (int i = 1; i <= 10; i++) {
             int result = numberTableToPrint * i;
-            System.out.println(numberTableToPrint + " * " + i + " = " + result);
+            System.out.println(i + " * " + numberTableToPrint + " = " + result);
         }
     }
 }
